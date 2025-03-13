@@ -2,7 +2,7 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
-    /* font-family: "The devil net"; */
+
 }
 
 html,body{
@@ -15,7 +15,7 @@ html,body{
 body{
     height: 100vh; 
     margin: 0; 
-    /* background-color: #e51414 ; */
+    font-family: "Montserrat", sans-serif;
     background-image: url(pikachu.jpg);
 }
 
@@ -74,7 +74,7 @@ hr{
 
 
 #heading h1{
-    font-family: "Anurati";
+    font-family: "Anurati", sans-serif;
     position: absolute;
     top:20%;
     left:51%;
@@ -93,7 +93,7 @@ hr{
 
 
 #about h1{
-    font-family: "autography";
+    font-family: "autography", cursive;
     position: absolute;
     top:50%;
     left:50%;
@@ -112,3 +112,13 @@ hr{
     text-align: center;
 }
 
+
+@font-face {
+    font-family: "Anurati";
+    src: url("fonts/Anurati.otf") format("opentype"); 
+}
+
+@font-face {
+    font-family: "Autography";
+    src: url("fonts/Autography.otf") format("opentype");
+}

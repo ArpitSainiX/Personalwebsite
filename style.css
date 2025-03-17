@@ -33,6 +33,33 @@ body{
     cursor: pointer;
 }
 
+/* @media (max-width:480px) {
+    #mainhead h1{
+        font-size: 15px;
+    }
+
+    #mainhead hr{
+        width:120px;
+        margin-left:8px;
+    }
+
+    #header{
+        position: absolute;
+        left: 50%;
+        top:50%;
+        transform: translate(-50%,0);
+        gap:5px;
+    }
+
+
+    #header a{
+        gap:0px;
+        font-size: 2px;
+        padding: 1px;
+    }
+} */
+
+
 hr{
     width:350px;
     margin-left: 25px;
@@ -73,6 +100,7 @@ hr{
 }
 
 
+
 #heading h1{
     font-family: "Anurati", sans-serif;
     position: absolute;
@@ -92,6 +120,7 @@ hr{
 }
 
 
+
 #about h1{
     font-family: "autography", cursive;
     position: absolute;
@@ -108,17 +137,65 @@ hr{
     top:70%;
     left:50%;
     transform: translate(-50%,0); 
+    width:100%;
     color:#dadada;
     text-align: center;
 }
 
+@media (max-width:480px) {
+    #mainhead h1{
+        font-size: 15px;
+    }
+
+    #mainhead hr{
+        width:120px;
+        margin-left:8px;
+    }
+
+    #header{
+        position: absolute;
+        left: 65%;
+        top:1%;
+        transform: translate(-50%,0);
+        gap:20px;
+    }
+
+
+    #header a{
+        /* gap:0px; */
+        font-size: 5px;
+        padding: 4px;
+    }
+
+    #heading h1{
+        font-size: 30px;
+    }
+
+    #about h1{
+        position: absolute;
+        left:50%;
+        top:50%;
+        transform: translate(-50%,-50%);
+        font-size: 30px;
+    }
+
+    #about p{
+        position: absolute;
+        left:50%;
+        top:70%;
+        transform: translate(-50%,-50%);
+        font-size:10px;
+        padding-bottom:4px;
+        line-height: 2;
+    }
+}
 
 @font-face {
     font-family: "Anurati";
-    src: url("fonts/Anurati.otf") format("opentype"); 
+    src: url("Fonts/Anurati-Regular.otf") format("opentype"); 
 }
 
 @font-face {
     font-family: "Autography";
-    src: url("fonts/Autography.otf") format("opentype");
+    src: url("Fonts/Autography.otf") format("opentype");
 }

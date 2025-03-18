@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-image: url(pikachu.jpg);
+}
+/* 
+#almighty {
+    background-color: #00000035;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+#mainhead h1 {
+    font-size: 30px;
+    font-family: "Anurati";
+    color: white;
+    letter-spacing: 2px;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+#mainhead h1:hover {
+    cursor: pointer;
+}
+
+
+#header {
+    display: flex;
+    margin-left: 30%;
+    
+    gap: 20px;
+}
+
+#header a {
+    font-family: "Montserrat";
+    text-decoration: none;
+    color: #fffffffa;
+    background-color: transparent;
+    border: 1px solid rgb(222, 255, 78);
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    padding: 6px 12px;
+    transition: all 0.3s ease-in-out;
+}
+
+#header a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.671);
+} */
+
+#almighty{
+    display: flex;
+}
+
+#mainhead h1{
+    font-size: 40px;
+    color:white;
+    font-family: "Anurati";
+    padding-left: 20px;
+    padding-top: 20px;
+    border-bottom: 2px solid rgba(255, 211, 53, 0.714);
+}
+
+
+#header{
+    display: flex;
+    gap:25px;
+    padding-left: 20%;
+    padding-top: 23px;
+}
+
+#header a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    padding:14px;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+#header a:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(2, 2, 2);
+}
+
+#heading h1 {
+    font-family: "Anurati", sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 60px;
+    color: white;
+    letter-spacing: 15px;
+    text-align: center;
+}
+
+
+#heading h1:hover{
+    cursor: pointer;
+}
+/* About Section */
+#about h1 {
+    font-family: "Autography", cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+
+#about h1:hover{
+    cursor: pointer;
+}
+
+#about p {
+    font-family: "Montserrat";
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 60%;
+    color: #dadada;
+    text-align: center;
+    font-size: 16px;
+}
+
+#about p:hover{
+    cursor: pointer;
+    color:white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #mainhead h1 {
+        font-size: 20px;
+        padding-left: 0;
+    }
+
+    #header {
+        margin-top: 10px;
+        gap: 10px;
+    }
+
+    #header a {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+
+    #heading h1 {
+        font-size: 40px;
+        letter-spacing: 8px;
+    }
+
+    #about h1 {
+        font-size: 30px;
+    }
+
+    #about p {
+        font-size: 14px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    #mainhead h1{
+        margin-left:10px;
+    }
+
+    #header {
+        flex-direction: column;
+        padding-top:0;
+        gap: 8px;
+    }
+
+    #header a {
+        font-size: 10px;
+        padding: 4px;
+    }
+
+    #heading h1 {
+        font-size: 30px;
+        letter-spacing: 5px;
+        margin-top:20%;
+    }
+
+    #about h1 {
+        font-size: 25px;
+    }
+
+    #about p {
+        font-size: 12px;
+        width: 95%;
+    }
+}
+
+/* Custom Fonts */
+@font-face {
+    font-family: "Anurati";
+    src: url("Fonts/Anurati-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Autography";
+    src: url("Fonts/Autography.otf") format("opentype");
+}
